@@ -17,3 +17,14 @@ def sum(n):
 
 
 print(f"summation is: {sum(n)}")
+
+#sum of n odd numbers
+
+def sumOdd(n):
+    if n<=0:
+        return 0
+    else:
+        return (2*n-1) + sumOdd(n-1)
+     
+
+print(f"summation is: {sumOdd(n)}") 
