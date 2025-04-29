@@ -5,9 +5,9 @@ class Programmers():
         self.sal=sal
         self.lang=lang
 
-sajal=Programmers("sajal",1200,"py")
+sajal=Programmers("sajal",1200,"c")
 print(sajal.name,sajal.lang,sajal.sal,sajal.company)
-srajal=Programmers("srajal",2400,"c")     
+srajal=Programmers("srajal",2400,"py")     
 print(srajal.name,srajal.lang,srajal.sal)   
 barkha=Programmers("barkha",5200,"java")  
 print(barkha.name,barkha.lang,barkha.sal)      

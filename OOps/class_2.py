@@ -6,7 +6,7 @@ class calculator():
     def cube (self):
         print (self.n**3)
     def sqRoot(self):
-        print( self.n*0.5)
+        print( self.n*0.5)    
         
     
 num=calculator(4)
